@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4652347545750717418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5417113505185963611}
+  - component: {fileID: 7776693761300037057}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5417113505185963611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4652347545750717418}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7776693761300037057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4652347545750717418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898deab58f0baa149abbd524ab24844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  audioMixer: {fileID: 24100000, guid: a53216f6adc06654a90df1faf241a167, type: 2}
+  bgmMixerGroup: {fileID: 8183853908705459854, guid: a53216f6adc06654a90df1faf241a167, type: 2}
+  sfxMixerGroup: {fileID: -5799808885568343284, guid: a53216f6adc06654a90df1faf241a167, type: 2}
+  bgmList:
+  - name: Stage_BGM
+    clip: {fileID: 8300000, guid: cf5a9b0b87b6d304cae09b11c40391e9, type: 3}
+  - name: Lobby_BGM
+    clip: {fileID: 8300000, guid: 7a28902feb72e0f4e945e0b8d19b3ab3, type: 3}
+  - name: Death_BGM
+    clip: {fileID: 8300000, guid: 2375205092ea73b4191d34c1380b33f6, type: 3}
+  - name: Boss_BGM
+    clip: {fileID: 8300000, guid: 8168ffe6ae3dc51468ec01f0c46022f4, type: 3}
+  sfxList:
+  - name: Footstep_1
+    clip: {fileID: 8300000, guid: 1567509a895016d48857d78dbd91173e, type: 3}
+  - name: Footstep_2
+    clip: {fileID: 8300000, guid: ce73a793669761342bdd3d755c0f2d3c, type: 3}
+  - name: Footstep_3
+    clip: {fileID: 8300000, guid: cc3e4f41c757bd54db6cd288ce882c3a, type: 3}
+  - name: Footstep_4
+    clip: {fileID: 8300000, guid: f5deee6b9c2c125448ab5968324bed21, type: 3}
+  - name: Footstep_5
+    clip: {fileID: 8300000, guid: 836345f26a7bff8419ca606c5fefe64d, type: 3}
+  - name: Footstep_6
+    clip: {fileID: 8300000, guid: 0adab2654c48f8f4794b79487fb4bb3d, type: 3}
+  - name: Footstep_7
+    clip: {fileID: 8300000, guid: 3a7effe8980437e438cf5eec5b462523, type: 3}
+  - name: Footstep_8
+    clip: {fileID: 8300000, guid: 7881cbf86dc9cd94181a206794445a63, type: 3}
+  - name: Footstep_9
+    clip: {fileID: 8300000, guid: 1cfe941ffbf4a0c4f9b3785b112788d1, type: 3}
+  - name: Footstep_10
+    clip: {fileID: 8300000, guid: 6632003f217fb6a40ae94b38d08efda9, type: 3}
+  - name: Attack_1
+    clip: {fileID: 8300000, guid: 603605eaf5d96ff44bf81e826b535cc4, type: 3}
+  - name: Attack_2
+    clip: {fileID: 8300000, guid: 7cab6840888dc1741bfd84f48c3ed3c3, type: 3}
+  - name: Attack_3
+    clip: {fileID: 8300000, guid: 82a8f47ccb1387742bc31ee3499d2acb, type: 3}
+  - name: Hit_Monster
+    clip: {fileID: 8300000, guid: a3898fc195d90fd459dc775d6d0dc4df, type: 3}
+  - name: Player_Spin
+    clip: {fileID: 8300000, guid: 64b8fd5ca6761a840a4c6aed82708ea0, type: 3}
+  - name: Player_Dash
+    clip: {fileID: 8300000, guid: d585a2fdf51deaf42b1fa3118d34d714, type: 3}
+  - name: Player_Hit
+    clip: {fileID: 8300000, guid: db2d4ee5360986f4fae62570919e0a88, type: 3}
+  - name: Player_Death
+    clip: {fileID: 8300000, guid: 71d6f0670c0d74749b9f88b2ad33420d, type: 3}
+  - name: Player_Resurrect_End
+    clip: {fileID: 8300000, guid: 7b2113c75a5d64c46862ae493d101a4e, type: 3}
+  - name: Door_Open
+    clip: {fileID: 8300000, guid: 29131b3fe4b4a6047968656786f4e503, type: 3}
+  - name: Reward_Gift_Spawn
+    clip: {fileID: 8300000, guid: 0cb7568bbac12c94e92683453a495d8f, type: 3}
+  - name: Reward_Health_Spawn
+    clip: {fileID: 8300000, guid: 0cb7568bbac12c94e92683453a495d8f, type: 3}
+  - name: Reward_Gold_Spawn
+    clip: {fileID: 8300000, guid: 0cb7568bbac12c94e92683453a495d8f, type: 3}
+  - name: UI_Button_Click
+    clip: {fileID: 8300000, guid: 97ff698d16ccc63499454288c68bddcd, type: 3}
+  - name: Upgrade_Success
+    clip: {fileID: 8300000, guid: 09d613a3a1155504ea3927190f6322fb, type: 3}
+  - name: Bruiser_Attack
+    clip: {fileID: 8300000, guid: ceede9fc9d58ba046a95dd7e8990a3e8, type: 3}
+  - name: Bruiser_Death
+    clip: {fileID: 8300000, guid: 6053129db3b0ec54f8d25c674f8d9292, type: 3}
+  - name: Clear_BGM
+    clip: {fileID: 8300000, guid: 1570ee4e2eb128c458b171f1e53c960e, type: 3}
+  - name: Boss_Slam_Sound
+    clip: {fileID: 8300000, guid: a12245397e7e0794cb5cf9344af65071, type: 3}
+  - name: Boss_Breath_Sound
+    clip: {fileID: 8300000, guid: cf66d7d96dd505748b92ffcf1c0af4d3, type: 3}
+  sfxSourceCount: 10

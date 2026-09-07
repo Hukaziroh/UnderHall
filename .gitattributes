@@ -1,0 +1,19 @@
+* text=auto eol=lf
+# Unity 텍스트 파일 (머지 도구 사용)
+*.meta merge=unityyamlmerge eol=lf
+*.unity merge=unityyamlmerge eol=lf
+*.asset merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.mat merge=unityyamlmerge eol=lf
+*.anim merge=unityyamlmerge eol=lf
+*.controller merge=unityyamlmerge eol=lf
+# 코드
+*.cs text diff=csharp
+# 이미지/모델/사운드 (바이너리)
+*.png binary
+*.jpg binary
+*.psd binary
+*.fbx binary
+*.wav binary
+*.mp3 binary
+3조[[:space:]]ppt[[:space:]]발표자료.pptx filter=lfs diff=lfs merge=lfs -text

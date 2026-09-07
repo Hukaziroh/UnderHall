@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 533338edfcbfec445bfa5616bde10c0f, type: 3}
+  m_Name: PlayerData_Default
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerData
+  maxHealth: 100
+  damage: 10
+  moveSpeed: 5
+  attackCooldown: 0.3
+  attackRange: 3.6
+  specialAttackMultiplier: 0.3
+  specialAttackRange: 2.2
+  specialAttackCooldown: 1
+  dashSpeed: 20
+  dashDuration: 0.2
+  maxDashCount: 2
+  dashCooldown: 1
+  dashInvincibilityTime: 0.2
+  hitInvincibilityTime: 0.5
+  maxResurrectionCount: 0
+  resurrectionHealthPercent: 0
+  resurrectionInvincibilityTime: 2
+  currentGold: 500
+  goldGainMultiplier: 1
+  levelHP: 0
+  levelATK: 0
+  levelDash: 0
+  levelGold: 0
+  levelRevive: 0
+  levelSpeed: 0
+  acquiredGifts: 

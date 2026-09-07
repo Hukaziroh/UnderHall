@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1606788966993691776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378904493436609741}
+  - component: {fileID: 7106473763316221419}
+  m_Layer: 0
+  m_Name: VFX Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &378904493436609741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606788966993691776}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.52199, y: 0.87539, z: -12.45754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7106473763316221419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606788966993691776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7256f9a94fa4a1b4e9fdea62fb24c0a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VFXManager
+  weaponSwingPrefab: {fileID: 1711807086809823077, guid: 910e4c76ed924cc4c927302b74ff5a24, type: 3}
+  weaponSkillPrefab: {fileID: 5365296173362434561, guid: 4027583c6b8087c44b7f2891e1674831, type: 3}
+  weaponSkillExplosionPrefab: {fileID: 1663630106462961253, guid: 73b401f5ccae5da49a5b383aaeb017c7, type: 3}
+  attackHitSparkPrefab: {fileID: 7649999648236550660, guid: 88d36f635efa5ba429e07f592c640902, type: 3}
+  attackImpactPrefab: {fileID: 0}
+  dashStartPrefab: {fileID: 8145273220280521979, guid: 2e773aa9e38eeb0499d13648adb004bd, type: 3}
+  dashTrailPrefab: {fileID: 0}
+  dashEndPrefab: {fileID: 0}
+  playerHitPrefab: {fileID: 0}
+  playerDeathPrefab: {fileID: 3563469976464276735, guid: b9f38e3e878407041805eff8496bd057, type: 3}
+  playerResurrectStartPrefab: {fileID: 1159970587636746, guid: e7473d9620ab29341b98bf21b400e598, type: 3}
+  playerResurrectEndPrefab: {fileID: 2264145547278940075, guid: 68dc6249797585744ac310830aac1e7e, type: 3}
+  monsterAttackPrefab: {fileID: 0}
+  monsterHitPrefab: {fileID: 1277154925287174, guid: 3b517eddec185dd4a830743a742ad00b, type: 3}
+  monsterDeathPrefab: {fileID: 3563469976464276735, guid: b9f38e3e878407041805eff8496bd057, type: 3}
+  monsterDeathSmokePrefab: {fileID: 0}
+  bossAttackPrefab: {fileID: 0}
+  bossBreathPrefab: {fileID: 5058549489459257812, guid: d39dd2810133cf34d8cb804fa333b82f, type: 3}
+  bossRushPrefab: {fileID: 1267622881173442705, guid: c15e6ae34ba4f4342aaea160e0d30071, type: 3}
+  bossFlyAttackPrefab: {fileID: 1267622881173442705, guid: c15e6ae34ba4f4342aaea160e0d30071, type: 3}
+  bossFlyBreathPrefab: {fileID: 0}
+  bossDivePrefab: {fileID: 0}
+  poolSizePerPrefab: 5
+  playerHitColor: {r: 1, g: 0.15, b: 0.15, a: 1}
+  monsterHitColor: {r: 1, g: 0.3, b: 0.1, a: 1}
+  hitFlashDuration: 0.12
+  roomClearVFXPrefab: {fileID: 0}
+  rewardAppearVFXPrefab: {fileID: 1228946162475541010, guid: de04edbdac79d394b976db37021bf254, type: 3}

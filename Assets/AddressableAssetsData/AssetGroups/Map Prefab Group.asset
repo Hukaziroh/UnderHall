@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Map Prefab Group
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Map Prefab Group
+  m_GUID: 28c7871f0562337428e2598cb109587f
+  m_SerializeEntries:
+  - m_GUID: 0c6402ca2b1d75d479aa2453c8aad3df
+    m_Address: _Long_Hall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 662f351f40e9d454995cd412a209da49
+    m_Address: _Furnace
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8ff087af51af314b9910f459194fee7
+    m_Address: _Laboratory
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd37b9eb5671ea848bb60aa79240d310
+    m_Address: _Outside
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec3bf40f5c1b4ff4a812c225baa27234
+    m_Address: _Center_Hall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0fe2d451abef2d4aa9bf7e117bc9d53
+    m_Address: _BossMap
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffbe7c736c3c5d54f8fa7499f74bef38
+    m_Address: _Torture_Room
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0f49a7f41865a4d499da0406f7664e99, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 67cb0b73a14102e48a92b6429a340400, type: 2}
+    - {fileID: 11400000, guid: 1fe679e60e900ec4bbf0c5823b12f1f1, type: 2}

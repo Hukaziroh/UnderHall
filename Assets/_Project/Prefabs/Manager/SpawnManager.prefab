@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &572187532092034009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2803030608348626970}
+  - component: {fileID: 4095815303348115601}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2803030608348626970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572187532092034009}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4095815303348115601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572187532092034009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec96b1a293da99f4498e4bfb3911f508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnManager
+  tierData: {fileID: 11400000, guid: 53c7bfefc233f8a4e854173601645ab9, type: 2}
+  magicCircleVFX: {fileID: 5601825055935271728, guid: 387f07d0ae6a3ec4aa586d06f1ffcf00, type: 3}
+  spawnPoofVFX: {fileID: 8678210493037586766, guid: 3cdfa75852d183c4baef1c53cb3b67e2, type: 3}
+  spawnDelay: 1.5
+  exitDoors: []
+  rewardMaxHealthPrefab: {fileID: 9155953019565534169, guid: 58fff8fb8cc1c1a4a93350714f321ccb, type: 3}
+  rewardGiftPrefab: {fileID: 9155953019565534169, guid: 244ae0afb6a29734fb21d01bdcde9bee, type: 3}
+  rewardGoldPrefab: {fileID: 9155953019565534169, guid: 400561815e145cc419508d73bfd1b3a6, type: 3}
+  healthIcon: {fileID: 21300000, guid: 10024530fd58d844f986d17744a3cb07, type: 3}
+  giftIcon: {fileID: 21300000, guid: b7f009356fbdfdf47a13761b6943dda7, type: 3}
+  goldIcon: {fileID: 21300000, guid: f7a01888466e6254e8552b137e14190b, type: 3}
+  currentRoomReward: 0
