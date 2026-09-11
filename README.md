@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pYPBpAWz)
 # 🗡️ (게임 제목) — 쿼터뷰 로그라이크
 
 > Unity로 제작한 하데스(Hades)류 쿼터뷰 던전 로그라이크 게임입니다.
