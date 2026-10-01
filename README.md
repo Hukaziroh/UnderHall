@@ -3,7 +3,7 @@
 > Unity로 제작한 쿼터뷰 던전 로그라이크 게임입니다.
 > 던전을 한 방씩 돌파하며 보상을 선택하고, 마지막 보스를 처치하는 것이 목표입니다.
 
-Youtube
+Youtube : 
 https://youtu.be/vsww1RS2NX8
 ---
 
